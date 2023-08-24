@@ -1,0 +1,19 @@
+{
+  "name": "betameta",
+  "version": "1.0.0",
+  "description": "A better Meta",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrisesAverting/betaMeta.git"
+  },
+  "author": "Nicco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrisesAverting/betaMeta/issues"
+  },
+  "homepage": "https://github.com/CrisesAverting/betaMeta#readme"
+}
