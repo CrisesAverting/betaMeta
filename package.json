@@ -1,19 +1,25 @@
 {
-  "name": "betameta",
+  "name": "event-lister",
   "version": "1.0.0",
-  "description": "A better Meta",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CrisesAverting/betaMeta.git"
-  },
-  "author": "Nicco",
+  "author": "Ben, Brandon, Nicco, Nick",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CrisesAverting/betaMeta/issues"
-  },
-  "homepage": "https://github.com/CrisesAverting/betaMeta#readme"
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.0.4",
+    "date-fns": "^2.30.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.6",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
 }

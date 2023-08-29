@@ -1,0 +1,7 @@
+adding a comment
+once a post is created a comment can be adding
+display a page with a singular post
+that post can have comments added
+
+
+add res.render for individual post based on post ID

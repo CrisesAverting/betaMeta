@@ -1,0 +1,34 @@
+<div class="events-container">
+  <div class="card-header col-md-10">
+    <h2>
+      This Week <h3>{{this.date}}</h3>
+    </h2>
+  <button id="logout">Logout</button>
+  
+  </div>
+  <div>
+  <form action="/submit" method="POST">
+    <input type="text" name="eventName" placeholder="Input your event name here!" />
+    <input type="date" name="date" />
+    <button type="submit">Submit</button>
+  </form>
+  </div>
+  {{#each dates }}
+    <div class="date col-md-5">
+      <p>
+        {{this.date}}
+      </p>
+      {{#if events.length}}
+        {{#each events}}
+          <p class="eventCard">
+            <p>{{name}}
+            {{eventName}}
+          </p>
+        {{/each}}
+      {{else}}
+        <p>No events today</p>
+      {{/if}}
+    </div>
+  {{/each}}
+</div>
+<script src="../js/logout.js"></script>
