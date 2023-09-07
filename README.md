@@ -1,25 +1,38 @@
-# event-lister
+## Table of Contents
 
+* [Description](#description)
+* [Links](#links)
+* [Purpose](#purpose)
+* [Screenshots](#screenshots)
+* [Technologies Used](#technologies)
+* [Licence](#license)
+* [Credits](#credits)
 ## Description
 
-    We made this Event Lister so that a family could keep up with each others busy lives and schedules.
+A really basic tech blog
 
-## Installation
+## Links
 
-    This program uses mysql2, bcrypt, sequilize, date-fns, dotenv,
-    express, and handlebars,.... please install accordingly
 
-## Usage
+## Purpose
 
-    This code is used to keep track of a busy familys(or bootcamp students) schedule and plan accordingly.
+Provides a place to post blog thoughts
+
+## Screenshots
+
+
+
+## Technologies
+
+<img src="https://img.shields.io/badge/Built%20with-HTML5-blue">
+
+<img src="https://img.shields.io/badge/Built%20with-CSS3-blue">
+
+<img src="https://img.shields.io/badge/Built%20with-Javascript-blue">
 
 ## License
 
-    MIT
+<img src="https://img.shields.io/badge/license-MIT-blue">
 
 ## Credits
-
-    Nick- Database
-    Nicco- Routes
-    Ben- CSS
-    Brandon- Random stuff 
+Some of these materials were developed by the 2U/edX Coding Curriculum Team for use with bootcamp students.
